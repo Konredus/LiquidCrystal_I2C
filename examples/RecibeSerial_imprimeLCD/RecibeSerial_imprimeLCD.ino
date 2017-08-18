@@ -9,7 +9,7 @@
 
 LiquidCrystal_I2C lcd(0x3f, 16, 2); //configuramos la pantalla con su direccion y el tipo
 //recordar que para obtener las direccion tenemos que usar el codigo
-//que viene en lso ejemplos de scanner_i2c
+//que viene en los ejemplos y se llama:  scanner_i2c Scanner_direccion_i2c
 
 void setup()
 {
@@ -21,7 +21,7 @@ void setup()
 
 void loop()
 {
-  //entra en el if cuando llega algo por puerto serie
+  //entra en el if solo cuando llega algo por puerto serie
   if (Serial.available())
   {
     delay(100);    //esperamos un tiempo
