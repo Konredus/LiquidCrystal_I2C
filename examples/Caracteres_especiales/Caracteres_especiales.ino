@@ -85,6 +85,8 @@ uint8_t enter[8] = {0b00000001,
 
 
 LiquidCrystal_I2C lcd(0x3f, 16, 2); //defino direccion del LCD y que es del tipo 16x2
+//recordar que para obtener las direccion tenemos que usar el codigo
+//que viene en los ejemplos y se llama:  scanner_i2c Scanner_direccion_i2c
 
 void setup()
 {
@@ -107,10 +109,10 @@ void setup()
 
 void loop()
 {
-  lcd.clear();  //borro completamente la pantalla
+  lcd.clear();          //borro completamente la pantalla
   lcd.setCursor(0, 0);  //me ubico en el 0,0 de la pantalla
   lcd.print("Hola,sabias que?"); //imprimo Mensaje
-  lcd.setCursor(0, 1); //me ubico en el 0,1 de la pantalla
+  lcd.setCursor(0, 1);  //me ubico en el 0,1 de la pantalla
   lcd.print(" yo ");
   lcd.write(3);
   lcd.print(" arduino!");
@@ -120,7 +122,7 @@ void loop()
   lcd.setCursor(0, 0);  //me ubico en el 0,0 de la pantalla
   lcd.print("Otros Caracteres"); //imprimo texto
   lcd.setCursor(0, 1);
-  for (int j = 0; j < 8; j++)  //este for esta para repetir cilo 8 veces
+  for (int j = 0; j < 8; j++)  //este for esta para repetir ciclo 8 veces
   {
     lcd.write(j); //imprimo todos los caracteres especiales de a uno
   }
