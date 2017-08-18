@@ -109,7 +109,7 @@ void loop()
 {
   lcd.clear();  //borro completamente la pantalla
   lcd.setCursor(0, 0);  //me ubico en el 0,0 de la pantalla
-  lcd.print("Hola, sabias que "); //imprimo Mensaje
+  lcd.print("Hola, sabias que?"); //imprimo Mensaje
   lcd.setCursor(0, 1); //me ubico en el 0,1 de la pantalla
   lcd.print(" yo ");
   lcd.write(3);
