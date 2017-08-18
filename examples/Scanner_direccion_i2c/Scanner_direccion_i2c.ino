@@ -33,7 +33,7 @@ void loop()
  
     if (error == 0)
     {
-      Serial.print("Dispositivo I2C detectado en al direccion: 0x");
+      Serial.print("Dispositivo I2C detectado en la direccion: 0x");
       if (address<16)
         Serial.print("0");
       Serial.print(address,HEX);
