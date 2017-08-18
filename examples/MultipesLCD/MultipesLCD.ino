@@ -9,8 +9,8 @@
  
 LiquidCrystal_I2C lcd1(0x26,16,2);  //defino LCD1 con su direccion
 LiquidCrystal_I2C lcd2(0x27,16,2);  //defino LCD2 con su direccion
-//recordar que para obtener las direccion tenemos que usar el codigo 
-//que viene en lso ejemplos de scanner_i2c
+//recordar que para obtener las direccion tenemos que usar el codigo
+//que viene en los ejemplos y se llama:  scanner_i2c Scanner_direccion_i2c
  
 void setup()
 {
