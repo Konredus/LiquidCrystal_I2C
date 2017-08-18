@@ -9,6 +9,8 @@
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x3f,16,2);  //fijamos la direccion del LCD y aclaramos que es del tipo 16x2
+//recordar que para obtener las direccion tenemos que usar el codigo
+//que viene en los ejemplos y se llama:  scanner_i2c Scanner_direccion_i2c
 
 void setup()
 {
