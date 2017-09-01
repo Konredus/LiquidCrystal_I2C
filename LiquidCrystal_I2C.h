@@ -1,5 +1,8 @@
-// LiquidCrystal_I2C V2.0 - Mario H. atmega@xs4all.nl
-// Mods for Chinese I2C converter board - Murray R. Van Luyn. vanluynm@iinet.net.au
+/*
+LiquidCrystal_I2C.h - Library for i2c module and LCD
+Created by Konredus 2017
+Released into the public domain.
+*/
 
 #ifndef LiquidCrystal_I2C_h
 #define LiquidCrystal_I2C_h
